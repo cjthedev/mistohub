@@ -4,3 +4,4 @@
 password is: misto.wtf
 
 # Loadstring:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cjthedev/mistohub/main/mistohub.lua"))
