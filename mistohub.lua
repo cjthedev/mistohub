@@ -55,7 +55,30 @@ local Window = Rayfield:CreateWindow({
           loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
       end,
    })
-   else
+elseif(gameid == 2809202155) then
+    Rayfield:Notify({
+        Title = "Game Found!",
+        Content = "Your Bizarre Adventure",
+        Duration = 6.5,
+        Image = 4483362458,
+        Actions = { -- Notification Buttons
+           Ignore = {
+              Name = "lets fucking go",
+              Callback = function()
+              print("The user tapped Okay!")
+           end
+        },
+     },
+     })
+     local YBATab = Window:CreateTab("YBA", 4483362458) -- Title, Image
+     local Button = YBATab:CreateButton({
+        Name = "Bitch Boy",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
+        end,
+     })
+end
+else
       Rayfield:Notify({
          Title = "bruh you idiot",
          Content = "mate this game isn't supported you fucking dildo",
