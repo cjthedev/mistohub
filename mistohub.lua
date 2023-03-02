@@ -77,6 +77,28 @@ elseif(gameid == 2809202155) then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
         end,
      })
+    elseif(gameid == 8568266872) then
+    Rayfield:Notify({
+        Title = "Game Found!",
+        Content = "princess fucking simulator",
+        Duration = 6.5,
+        Image = 4483362458,
+        Actions = { -- Notification Buttons
+           Ignore = {
+              Name = "lets fucking go",
+              Callback = function()
+              print("The user tapped Okay!")
+           end
+        },
+     },
+     })
+         local KTab = Window:CreateTab("princess fucking simulator", 4483362458) -- Title, Image
+     local Button = KTab:CreateButton({
+        Name = "click this if ur gay",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AsianGamer308/Azn-Scripts/main/kmtsp"))()
+        end,
+     })
 else
       Rayfield:Notify({
          Title = "bruh you idiot",
