@@ -92,7 +92,7 @@ elseif(gameid == 2809202155) then
         },
      },
      })
-         local KTab = Window:CreateTab("princess fucking simulator", 4483362458) -- Title, Image
+         local KTab = Window:CreateTab("princess fucking simulator uwu", 4483362458) -- Title, Image
      local Button = KTab:CreateButton({
         Name = "click this if ur gay",
         Callback = function()
