@@ -11,8 +11,8 @@ local Window = Rayfield:CreateWindow({
        FileName = "MistoHub"
     },
     Discord = {
-       Enabled = false,
-       Invite = "", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+       Enabled = true,
+       Invite = "PCMU5CnC", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     },
     KeySystem = true, -- Set this to true to use our key system
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
        FileName = "MistoKey",
        SaveKey = true,
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = "misto.wtf" -- key for script
+       Key = "siggy" -- key for script
     }
  })
  local GTab = Window:CreateTab("General", 4483362458) -- Title, Image
